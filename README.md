@@ -25,15 +25,15 @@ This is a RESTful API service built with Node.js and Express for the HNG Interns
 - **URL**: `/strings`
 - **Body**: `application/json`
 
-  ```json
+  
   {
     "value": "string to analyze"
   }
-````
+  
 
-  - **Success Response (201 Created)**:
+- **Success Response (201 Created)**:
 
-    ```json
+    ```
     {
       "id": "sha256_hash_value",
       "value": "string to analyze",
@@ -80,7 +80,7 @@ This is a RESTful API service built with Node.js and Express for the HNG Interns
 
   - **Success Response (200 OK)**:
 
-    ```json
+    ```
     {
       "data": [
         {
@@ -112,7 +112,7 @@ This is a RESTful API service built with Node.js and Express for the HNG Interns
 
   - **Success Response (200 OK)**:
 
-    ```json
+    ```
     {
       "data": [
         { "id": "hash1", "value": "madam", "...": "..." },
@@ -149,25 +149,25 @@ Follow these instructions to run the project on your local machine.
 
 1.  **Clone the repository**:
 
-    ```bash
+    ```
     git clone [https://github.com/adeleke123/hng-stage1-backend.git](https://github.com/adeleke123/hng-stage1-backend.git)
     cd hng-stage1-backend
     ```
 
 2.  **Install dependencies**:
 
-    ```bash
+    ```
     npm install
     ```
 
 3.  **Run the server**:
 
       - For development (with automatic restarts on file changes):
-        ```bash
+        ```
         npm run dev
         ```
       - For production:
-        ```bash
+        ```
         npm start
         ```
 
